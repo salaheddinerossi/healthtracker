@@ -1,0 +1,227 @@
+.index {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+
+.index .overlap-group {
+  height: 100vh;
+  display: flex; /* Change direction to row */
+  flex-direction: row;
+  justify-content: space-between; /* Distributes children with space in between */
+  align-items: center;
+  width: 100%;
+  
+}
+
+.index .group {
+  width: 50%; /* This makes the header cover the first half of the width */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header{
+  width: 50%; /* This makes the .group cover the second half of the width */
+  height: 100%;
+
+}
+
+.index .rectangle {
+  
+  background-color: #ffffff;
+  box-shadow: 0px 1px 50px 23px #a5a9ff69;
+  height: 166px;
+  position: absolute;
+  bottom: 0px;
+  width: 1140px;
+}
+
+.index .img1 { 
+  width: 62px; 
+  height: auto;
+  margin-right: 13px;
+}
+
+.index .img2 {
+  height: 66px;
+  width: auto;
+  margin-right: 13px;
+
+}
+
+.index .img3 {
+  height: 58px;
+  width: auto;
+  margin-right: 13px;
+
+}
+
+.index .text-wrapper {
+  color: #373737;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 31.8px;
+  white-space: nowrap;
+}
+
+.index .text-wrapper-1 {
+  color: #373737;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 31.8px;
+  white-space: nowrap;
+}
+
+.index .text-wrapper-2 {
+  color: #373737;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 31.8px;
+  white-space: nowrap;
+}
+
+.index .text-wrapper-0 {
+  color: #676767;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  width: 210px;
+  margin-top: 0px;
+
+}
+
+.index .text-wrapper-3 {
+  color: #676767;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  width: 210px;
+  margin-top: 0px;
+}
+
+.index .text-wrapper-4 {
+  color: #676767;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  width: 210px;
+  margin-top: 0px;
+
+}
+
+.index .track-your-health {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.index .overlap-2 {
+
+  width: 403px;
+}
+
+.index .text-wrapper-5 {
+  color: #676767;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23.9px;
+  width: 403px;
+}
+
+.index .rectangle-2 {
+  border-radius: 7px;
+  height: 52px;
+  width: 403px;
+}
+
+.index .text-wrapper-6 {
+  color: #ababab;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 31.8px;
+  white-space: nowrap;
+}
+
+.index .text-wrapper-6 .input {
+  color: #676767;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 31.8px;
+  position: absolute;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: #ebebeb;
+  border-radius: 7px;
+  padding: 5px 10px;
+
+
+}
+
+
+.index .link-style {
+  background-color: #8084eb;
+  border-radius: 20px;
+
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 39.8px;
+  white-space: nowrap; 
+  padding:5px 10px;
+  text-decoration: none;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.margin-10{
+  margin-top: 10%;
+}
+
+.rect-container{
+  display: flex; /* Change direction to row */
+
+  flex-direction: row;
+  justify-content: space-between; /* Distributes children with space in between */
+  align-items: center;
+  margin: 20px 40px;
+
+
+}
+
+
+.flexit{
+  display: flex; /* Change direction to row */
+
+  flex-direction: row;
+  justify-content: space-between; /* Distributes children with space in between */
+  align-items: center;
+  margin: 20px 40px;
+
+}

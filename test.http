@@ -1,0 +1,32 @@
+POST http://localhost:8000/clients/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "macAddress": "00:A0:C9:14:C8:29",
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 30,
+    "phone": "1234567890",
+    "address": "123 Main St, Anytown, USA"
+}
+
+### Create client 2
+POST http://localhost:8000/vitalsigns/average/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "macAddress": "00:B0:D0:86:BB:35"
+}
+
+### Create client 3
+
+POST http://localhost:8000/vitalsigns/average HTTP/1.1 
+Content-Type: application/json
+
+{
+    "mac_address": "00:B0:D0:86:BB:35"
+}
+
+###
+GET http://34.159.170.172:8000/vitalsigns/average/imane HTTP/1.1
+Content-Type: application/json

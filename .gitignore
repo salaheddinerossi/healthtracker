@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignore Python compiled files
+*.pyc
+
+# Ignore node_modules directory
+node_modules/

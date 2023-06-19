@@ -1,0 +1,417 @@
+.secondpage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .secondpage .div {
+    background-color: #ffffff;
+    border: 1px none;
+    position: relative;
+    width: 100%;
+  }
+  
+  .secondpage .overlap {
+    background-color: #f6f6f6;
+    height: 96px;
+    width: 100%;
+  }
+  
+  .secondpage .ellipse {
+    background-color: #d9d9d9;
+    border-radius: 28px;
+    height: 56px;
+    width: 56px;
+    margin-right: 20px;
+  }
+  
+  .secondpage .name {
+    color: #373737;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    width: 112px;
+  }
+
+  .secondpage .lastname {
+    color: #373737;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    width: 112px;
+  }
+  
+  .secondpage .health-tracker {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-left: 6%;
+  }
+  
+  .secondpage .span {
+    color: #373737;
+  }
+  
+  .secondpage .text-wrapper-2 {
+    color: #000000;
+  }
+  
+  .secondpage .text-wrapper-3 {
+    color: #8084eb;
+  }
+  
+  .secondpage .overlap-group {
+    height: 40px;
+    left: 664px;
+    position: absolute;
+    top: 27px;
+    width: 199px;
+  }
+  
+  .secondpage .rectangle {
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 0px;
+    
+  }
+  
+  .secondpage .material-symbols {
+    height: 40px;
+    left: 159px;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .secondpage .text-wrapper-4 {
+    color: #373737;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+ 
+  .secondpage .time-period-list {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: none;  
+    width: 156px;
+    
+  }
+  .secondpage select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+  }
+  
+  .secondpage select:focus{
+    outline:none;
+  }
+  
+  .secondpage .overlap-2 {
+    background-color: #999cee;
+    border-radius: 10px;
+    height: 167px;
+    left: 165px;
+    position: absolute;
+    top: 152px;
+    width: 311px;
+  }
+  
+  .secondpage .overlap-3 {
+    height: 102px;
+    left: 33px;
+    position: absolute;
+    top: 21px;
+    width: 125px;
+  }
+  
+  .secondpage .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 70px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 113px;
+  }
+  
+  .secondpage .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    white-space: nowrap;
+    width: 125px;
+  }
+  
+  .secondpage .img {
+    margin-left: 30px;
+    height: 100px;
+    width: auto;
+  }
+  
+  .secondpage .overlap-4 {
+    background-color: #f77676;
+    border-radius: 10px;
+    height: 167px;
+    left: 1072px;
+    position: absolute;
+    top: 152px;
+    width: 328px;
+  }
+  
+  .secondpage .overlap-5 {
+    height: 102px;
+    left: 33px;
+    position: absolute;
+    top: 21px;
+    width: 141px;
+  }
+  
+  .secondpage .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 70px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -48px;
+    white-space: nowrap;
+    width: 141px;
+  }
+   
+  .secondpage .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    white-space: nowrap;
+    width: 141px;
+  }
+  
+  .secondpage .img2 {
+    height: 90px;
+    left: 220px;
+    position: absolute;
+    top: 39px;
+    width: 90px;
+  }
+  
+  .secondpage .overlap-6 {
+    background-color: #9cef95;
+    border-radius: 10px;
+    height: 167px;
+    left: 609px;
+    position: absolute;
+    top: 152px;
+    width: 330px;
+  }
+  
+  .secondpage .overlap-7 {
+    height: 102px;
+    left: 33px;
+    position: absolute;
+    top: 21px;
+    width: 161px;
+  }
+  
+  .secondpage .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 70px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 159px;
+  }
+  
+  .secondpage .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    white-space: nowrap;
+    width: 161px;
+  }
+  
+  .secondpage .img3 {
+    height: 97px;
+    left: 208px;
+    position: absolute;
+    top: 39px;
+    width: 90px;
+  }
+  
+  .secondpage .text-wrapper-11 {
+    color: #999cee;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 396px;
+    white-space: nowrap;
+    width: 325px;
+  }
+  
+  .secondpage .text-wrapper-12 {
+    color: #9cef95;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 857px;
+    white-space: nowrap;
+    width: 325px;
+  }
+  
+  .secondpage .text-wrapper-13 {
+    color: #f77676;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    left: 162px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1313px;
+    white-space: nowrap;
+    width: 325px;
+  }
+  
+  .secondpage .rectangle-2 {
+    background-color: #f6f6f6;
+    height: 344px;
+    left: 162px;
+    position: absolute;
+    top: 459px;
+    width: 1242px;
+  }
+  
+  .secondpage .rectangle-3 {
+    background-color: #f6f6f6;
+    height: 344px;
+    left: 162px;
+    position: absolute;
+    top: 917px;
+    width: 1242px;
+  }
+  
+  .secondpage .rectangle-4 {
+    background-color: #f6f6f6;
+    height: 344px;
+    left: 162px;
+    position: absolute;
+    top: 1374px;
+    width: 1242px;
+  }
+  
+  .flexit{
+    display: flex; /* Change direction to row */
+  
+    flex-direction: row;
+    justify-content: space-between; /* Distributes children with space in between */
+    align-items: center;
+    margin: 0px;
+  
+  }
+
+  .flexit-gap{
+    display: flex; /* Change direction to row */
+  
+    flex-direction: row;
+    justify-content: space-between; /* Distributes children with space in between */
+    align-items: center;
+    margin: 3% 14%;
+  
+  }
+
+
+  .profile{
+    margin-right:6%;
+  }
+  .value{
+
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+    margin: 0px;
+  }
+
+  .mesure{
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin: 0px;
+  }
+
+  .card{
+    padding:23px 27px 30px 27px;
+    border-radius: 10px;
+  }
+  .graph{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+
+  }
