@@ -22,11 +22,12 @@ const Header = () => {
               and skin temperature, while tracking average values over time. 
               Take control of your well-being today.
               </p>
-              <div className="text-wrapper-6 rectangle-2">
+              <div className="center-div">
+               <div className="text-wrapper-6 rectangle-2">
                   <input className="input " type="text" placeholder="Enter Mac Address:" onChange={handleInputChange} />
-              </div>
+               </div>
                 <Link to={`/SecondPage/${macAddress}`} className="link-style div-wrapper"> Start now </Link>
-
+              </div>
       </div>
 
           

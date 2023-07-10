@@ -1,0 +1,153 @@
+.Page2 {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  
+  /* Notifications */ 
+  .Page2 .form1 {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    height: 124px; 
+    width: 1089px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+ 
+  .Page2 .isTrue {
+    background-color: #8084eb;
+  }
+  
+  
+  .Page2 .notificationtitle {
+    color: #3c3c3c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+   }
+  
+  .Page2 .notificationcontent {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 890px;
+  }
+
+  .Page2 .form1.isTrue .notificationtitle,
+.Page2 .form1.isTrue .notificationcontent {
+  color: #ffffff;
+  ;
+}
+  
+
+
+  .Page2 .overlap-3 {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    height: 124px;
+    left: 379px;
+    position: absolute;
+    top: 391px;
+    width: 1089px;
+  }
+  
+  .Page2 .text-wrapper-10 {
+    color: #3c3c3c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+  }
+  
+  .Page2 .p {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    width: 890px;
+  }
+  
+  .Page2 .overlap-4 {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    height: 124px;
+    left: 379px;
+    position: absolute;
+    top: 548px;
+    width: 1089px;
+  }
+  
+  .Page2 .text-wrapper-11 {
+    color: #3c3c3c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+  }
+  
+  .Page2 .user-has-reached-a-2 {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    width: 890px;
+  }
+  
+  .Page2 .overlap-5 {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    height: 124px;
+    left: 379px;
+    position: absolute;
+    top: 705px;
+    width: 1089px;
+  }
+  
+  .Page2 .text-wrapper-12 {
+    color: #3c3c3c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+  }
+  
+  .Page2 .user-has-reached-a-3 {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 65px;
+    width: 890px;
+  }
+ 

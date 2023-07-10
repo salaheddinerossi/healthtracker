@@ -22,19 +22,23 @@ client = MongoClient('mongodb+srv://sdrossi:imane123@cluster0.53siks7.mongodb.ne
 db = client['HealthTracking']
 clients_collection = db['Client']
 
-# Fetch user IDs from the 'clients' collection (assuming the field for user ID is 'userId')
-user_ids = [str(client['_id']) for client in clients_collection.find()]
+# Fetch user IDs, firstName and lastName from the 'clients' collection
+clients = [{str(client['_id']): (client['firstName'], client['lastName'])} for client in clients_collection.find()]
 
 while True:
-    for user_id in user_ids:
+    for client in clients:
+        user_id, user_name = list(client.items())[0]
+
         # Generate fake vital signs
-        blood_pressure = fake.random_int(min=80, max=120)
-        body_temperature = round(random.uniform(36.5, 37.5), 1)
-        heart_beat = fake.random_int(min=60, max=100)
+        blood_pressure = fake.random_int(min=78, max=122)
+        body_temperature = round(random.uniform(36.5, 37.6), 1)
+        heart_beat = fake.random_int(min=58, max=103)
 
         # Construct message
         message = {
             'userId': user_id,
+            'firstName': user_name[0],
+            'lastName': user_name[1],
             'bloodPressure': blood_pressure,
             'bodyTemperature': body_temperature,
             'heartBeat': heart_beat,
@@ -50,4 +54,4 @@ while True:
         print(message)
 
         # Sleep for a while
-    time.sleep(15)
+    time.sleep(30)

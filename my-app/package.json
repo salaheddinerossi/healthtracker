@@ -9,13 +9,16 @@
     "axios": "^1.4.0",
     "chart.js": "^3.9.1",
     "chartjs-adapter-date-fns": "^3.0.0",
+    "firebase": "^9.23.0",
     "moment": "^2.29.4",
+    "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.44.3",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
+    "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

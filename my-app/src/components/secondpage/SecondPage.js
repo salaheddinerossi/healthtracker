@@ -13,6 +13,8 @@ import axios from 'axios';
 
 const SecondPage = () => {
 
+  
+
 const [selectedTimePeriod, setSelectedTimePeriod] = useState("5min");
 const [data, setData] = useState([]);
 
@@ -31,6 +33,7 @@ const [data, setData] = useState([]);
     axios.get(`http://20.216.154.100:8000/vitalsigns/average/${macAddress}/${selectedTimePeriod}`)
       .then(response => {
         setAverageData(response.data);
+        console.log(response.data)
       })
       .catch(error => {
         console.error('Error fetching data: ', error);
@@ -48,7 +51,6 @@ const [data, setData] = useState([]);
       };
 
 
-      console.log(data)
   
 
       
@@ -92,15 +94,15 @@ const [data, setData] = useState([]);
           <div className="profile flexit">
             <div className="ellipse " />
               <div >
-                <div className="name">Salah Rddine </div>
-                <div className="lastname">Rossi</div>
+                <div className="name">{averageData.firstName}</div>
+                <div className="lastname">{averageData.lastName}</div>
               </div>
           </div>
 
 
 
         </div>
-        <div className="flexit-gap">
+        <div className="flexit-gap2">
           <Card bgColor={"#999cee"} image={"/ph_heartbeat.png"} value={averageHeartBeat} mesure={"Heart beat"} />
           <Card bgColor={"#9cef95"} image={"/blood-pressure2.png"} value={averageBloodPressure} mesure={"Blood Pressure"} />
           <Card bgColor={"#f77676"} image={"/thermometer2.png"} value={averageBodyTemperature} mesure={"Body Temperature"} />

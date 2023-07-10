@@ -1,0 +1,29 @@
+.alert {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #aeaeae;
+    padding: 10 30px;
+    border-radius: 5px;
+    animation: fade-out 10s forwards;
+}
+
+.alert-list {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+    padding: 10 30px;
+
+}
+
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.Title-bold{
+    font-weight: bold;
+}

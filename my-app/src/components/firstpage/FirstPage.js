@@ -10,16 +10,13 @@ const FirstPage = () => {
         <div className="overlap-group">
             <div className="header">
               <Header/>
-
             </div>
             <img
               className="group"
               alt="Group"
               src="/group-1.png"
             />
-
         </div>
-
         <div> 
         </div>
         <div className="m-auto" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -35,13 +32,8 @@ const FirstPage = () => {
                 paragraph2="Monitor your blood pressure levels and take proactive steps towards maintaining a healthy circulatory system."
                 paragraph3="Track your skin temperature trends to better understand your body's thermoregulation and overall well-being."
               />
-
           </div>
-
         </div>
-
-      
-      
     </div>
   );
 }

@@ -1,0 +1,146 @@
+.Auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg-color {
+  background-color: #bcbfff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.Auth .div1 { 
+  background-color: #8084eb;
+  border-radius: 54px 0px 0px 54px; 
+  padding-right: 4%;  
+  padding-left: 4%;
+}
+
+.Auth .element { 
+  object-fit: cover;
+}
+
+.Auth  .overlap-group-wrapper {
+  background-color: #ffffff;
+  border-radius: 0px 54px 54px 0px;
+  padding: 10%;
+}
+
+.Auth  .overlap-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Auth  .health-tracker {
+  color: transparent;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal; 
+}
+
+.Auth  .span {
+  color: #585858;
+}
+
+.Auth  .text-wrapper-3 {
+  color: #8084eb;
+}
+
+.Auth  .div {
+  color: #565656;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+.Auth  .div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-bottom: 4.5%;
+  border: 2px solid #eaeaea;
+  border-radius: 12px;
+}
+
+.Auth  .password {
+  height: 22px;
+  object-fit: cover;
+  width: 19px; 
+  margin: 4%; 
+}
+ 
+.Auth  .input-password {
+  color: #737373;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  background: none;
+  outline: none;
+  border: none;
+  height: 52px;
+  width: 280px;
+}
+
+.Auth  .account {
+  height: 27px;
+  object-fit: cover;
+  width: 27px; 
+  margin: 4%;
+}
+
+.Auth .input-name {
+  color: #737373;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+  background: none; 
+  height: 52px;
+  width: 280px;
+}
+
+.Auth .login {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  background-color: #8084eb;
+  border-radius: 30px;
+  max-width: 800px; /* Adjust the max-width value to make the background larger */
+  margin: 0 auto; /* Optional: Centers the login element horizontally */
+  padding: 10px 80px;
+  border:0px;
+}
+
+
+.Auth .link-style {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-decoration: none;   
+}
+  
